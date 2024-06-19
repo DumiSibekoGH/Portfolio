@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>My portfolio</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=outline|emboss|shadow-multiple">
+
+    <!-- bootstrap 5.3.3 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap 3.4.1 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+    
+<body>
+    <!-- navigation -->
+    <div id="navbar" class="container-fluid p-5">
+        <nav>
+            <ul>
+                <li><span class="glyphicon glyphicon-home"></span><a href="#"> Home</a></li>
+                <li><span class="glyphicon glyphicon-home"></span><a href="#about"> About me</a></li>
+                <li><span class="glyphicon glyphicon-wrench"></span><a href="#projects"> Projects</a></li>
+                <li><span class="glyphicon glyphicon-phone"></span><a href="#contact"> Contact me</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <!-- Home section -->
+
+    <div id="main" class="container">
+        <img id="main-pic" src="images/profile Background Removed.png" />
+
+        <div id="main-text">
+            <h1 class="main-heading font-effect-shadow-multiple"> My portfolio</h1>
+            <p>Welcome to my website. This website will help you learn more about me.</p>
+            <button>Click here to know more</button>
+    </div>
+    </div>
+
+    <!-- About -->
+    <div id="about" class="text-white container-fluid">
+        <img src="images/aboutPic Background Removed.png">
+
+        <section id="about-text">
+            <h1 class="font-effect-emboss">About me</h1>
+            <p class="">
+                A consummate professional driven by a fervent pursuit of excellence. 
+                With a diverse skill set honed through years of experience and a steadfast 
+                commitment to continuous improvement, [Your Name] navigates the complexities 
+                of their field with precision and finesse. Their strategic acumen, coupled with 
+                a knack for innovative problem-solving, distinguishes them as a dynamic leader 
+                capable of driving impactful change. A beacon of integrity and collaboration, 
+                I foster environments of trust and empowerment, leveraging their 
+                innate ability to inspire and motivate teams toward shared success. 
+                In every endeavor, they exemplify a steadfast dedication to excellence, 
+                leaving an indelible mark on projects and colleagues alike.
+            </p>
+
+            <button class="text-black p-1" ><a href="server-side-script.php">Download resume</a></button>
+        </section>
+    </div>
+
+    <!-- Projects -->
+
+    <div id="projects" class="container-fluid">
+        <div class="cards">
+            <h2 class="header">Projects</h2>
+            <div class="services">
+               <div class="content content-1">
+                  <div>
+                    <img class="icon" src="images/editorIcon.jpeg">
+                  </div>
+                  <h2>Text editor</h2>
+                  <p>Simple plain text-editor written and compiled in java</p>
+                  <a href="https://github.com/DumiSibekoGH/Java-Plain-text-editor">Read More</a>
+               </div>
+               <div class="content content-2">
+                  <div>
+                    <img class="icon" src="images/libIcon.png">
+                  </div>
+                  <h2>Library Management System</h2>
+                  <p>
+                     Library management system for purchases, rentals and returns.
+                  </p>
+                  <a href="#">Read More</a>
+               </div>
+               <div class="content content-3">
+                  <div class="fab fa-youtube"></div>
+                  <h2>Another project yet to be made</h2>
+                  <p>Maybe some sort of a predictor...? I don't know. Yet to decide :))</p>
+                  <a href="https://github.com/DumiSibekoGH/Smiley-Face">Read More</a>
+               </div>
+            </div>
+         </div>
+    </div>
+
+    <!-- Contact me -->
+    <div id="contact" class="container-fluid">
+        <h3 class="font-effect-shadow-multiple">Contact me</h3>
+        <div class="cards">
+            <img class="media-icons" src="images/insta_icon.jpeg">
+         </div>
+         <div class="cards">
+            <img class="media-icons" src="images/github_icon.webp">
+         </div>
+         <div class="cards">
+            <img class="media-icons" src="images/insta_icon.jpeg">
+         </div>
+    </div>
+
+</body>
+</html>
